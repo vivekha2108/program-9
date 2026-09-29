@@ -1,6 +1,10 @@
-CREATE TABLE Department(
-DepartmentID INT,
-DepartmentName VARCHAR(30)
+USE CollegeDB;
+
+CREATE TABLE Student (
+    StudentID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Age INT,
+    Department VARCHAR(100)
 );
 
 INSERT INTO Department VALUES
