@@ -1,3 +1,4 @@
+USE CollegeDB;
 CREATE TABLE Department (
 DepartmentID INT,
 DepartmentName VARCHAR(30)
